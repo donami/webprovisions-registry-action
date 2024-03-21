@@ -6,6 +6,10 @@ inputs:
     description: 'Token for with read access to packages'
     required: true
     default: ''
+  registry-url:
+    description: 'URL of the registry'
+    required: true
+    default: ''
 
 runs:
   using: 'node20'
