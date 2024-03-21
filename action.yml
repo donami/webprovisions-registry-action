@@ -1,6 +1,12 @@
 name: 'Webprovisions Registry Action'
 description: 'Registry action'
 
+inputs:
+  registry-token:
+    description: 'Token for with read access to packages'
+    required: true
+    default: ''
+
 runs:
-  using: 'node16'
-  main: 'index.js'
+  using: 'node20'
+  main: 'dist/index.js'
