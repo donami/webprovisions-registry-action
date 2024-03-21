@@ -1,0 +1,6 @@
+name: 'Webprovisions Registry Action'
+description: 'Registry action'
+
+runs:
+  using: 'node16'
+  main: 'index.js'
