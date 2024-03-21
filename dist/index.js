@@ -26635,8 +26635,6 @@ const main = async () => {
 
   const output = `${data}\n${authString}`;
 
-  console.log('output', output); // TODO: remove
-
   await fs.writeFile('./.npmrc', output, 'utf-8');
 };
 
